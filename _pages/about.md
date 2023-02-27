@@ -22,5 +22,5 @@ My work and interests are generally in natural language processing and speech pr
 
 To improve perceptual quality, we created deep learning estimators of fine-grained speech characteristics, whose importance we identified from the acoustic-phonetics literature. A useful analogy is that they are a "fingerprint" of natural speech. Our work has focused on different ways to optimize networks to produce speech that has this same "fingerprint". 
 
-These characteristics were previously calculated using traditional _non-differentiable_ signal processing techniques. Our neural estimators are differentiable and thus open up their application in optimizing other networks. We have presented this work in 3 papers across 2 conferences, and at an invited talk to Meta Reality Labs Research Audio.
+These characteristics were previously calculated using traditional _non-differentiable_ signal processing techniques. Our neural estimators are differentiable and thus open up their application in optimizing other networks. In the last year we have presented this work in 3 papers across 2 conferences, and at an invited talk to Meta Reality Labs Research Audio.
 

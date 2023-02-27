@@ -8,18 +8,15 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! My name is David Bick and I am a Research Masters student in Language Technologies at the Carnegie Mellon School of Computer Science. I am fortunate to be advised by Prof. Bhiksha Raj, who introduced me to deep learning in 2018 in my undergrad (also at CMU) in Statistics and Machine Learning. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work and interests are generally in natural language processing and speech processing. My research has followed a line of work on improving the perceptual quality of machine-generated speech. We did this by creating novel deep learning estimators of fine-grained speech characteristics. We identified these from acoustic-phonetic literature, and they can be thought of as a "fingerprint" of natural speech. This work, comprising 3 publications and an invited talk at Meta Reality Labs Research Audio, focus on different ways to optimize networks using these characteristics. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also have a number of projects using recent models in NLP (BERT/T5/GPT) on question-answering tasks. I am interested in the recent development of LLM's and the emergent capabilities at scale. 

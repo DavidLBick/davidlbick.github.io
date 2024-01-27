@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! My name is David Bick and I work in Applied ML at Cerebras Systems, the leading deep learning hardware accelerator startup. Previously I spent six years at Carnegie Mellon: I first earned a Bachelors in Statistics and Machine Learning, and then published three papers under Prof. Bhiksha Raj durng a Research Masters in the Language Technologies Institute of the School of Computer Science.  
+Hi! My name is David Bick and I work in Applied ML at Cerebras Systems, the leading deep learning hardware accelerator startup. Previously I spent six years at Carnegie Mellon: I first earned a Bachelors in Statistics and Machine Learning, and then published three papers under Prof. Bhiksha Raj durng a Research Masters in the Language Technologies Institute, within the School of Computer Science.  
 
 My work and interests are generally in natural language processing and speech processing. My research followed a line of work on improving the perceptual quality of machine-generated speech. I have also worked on a number of projects at Cerebras and CMU using LLMs, including multi-modal QA, instruction-fine-tuning, etc.  
 

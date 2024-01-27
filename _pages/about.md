@@ -14,9 +14,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! My name is David Bick and I am a Research Assistant in the Language Technologies Institute, at the Carnegie Mellon School of Computer Science. I graduated with a Master's in Language Technologies in December 2022. I am fortunate to work with -- and have been advised by -- Prof. Bhiksha Raj. He first introduced me to deep learning in 2018 during my undergrad in Statistics and Machine Learning, also at CMU. 
+Hi! My name is David Bick and I work in Applied ML at Cerebras Systems, the leading deep learning hardware accelerator startup. Previously I spent six years at Carnegie Mellon: I first earned a Bachelors in Statistics and Machine Learning, and then published three papers under Prof. Bhiksha Raj durng a Research Masters in the Language Technologies Institute of the School of Computer Science.  
 
-My work and interests are generally in natural language processing and speech processing. My research has followed a line of work on improving the perceptual quality of machine-generated speech. I have also worked on a number of projects using recent LMs in NLP on question-answering (QA) tasks, including multimodal QA. I am generally interested in the recent development of LLM's and their emergent capabilities. 
+My work and interests are generally in natural language processing and speech processing. My research followed a line of work on improving the perceptual quality of machine-generated speech. I have also worked on a number of projects at Cerebras and CMU using LLMs, including multi-modal QA, instruction-fine-tuning, etc.  
 
 **Research Details:**
 

@@ -1,9 +1,9 @@
---- 
+---
 layout: post
-title: "Decoding Stragies in NLP" 
+title: "Decoding Curiosities"
 date: 2024-01-27
-excerpt: "Curious case of beam search"
-tags: [sample, decoding]
+excerpt: "A brief description of your post."
+tags: [sample, information]
 ---
 
 Test

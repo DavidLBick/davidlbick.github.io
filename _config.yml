@@ -149,9 +149,6 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
-  posts: 
-    output: true
-    permalink: /posts/:path/
   news:
     defaults:
       layout: post

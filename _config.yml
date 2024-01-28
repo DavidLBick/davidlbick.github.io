@@ -151,6 +151,7 @@ external_sources:
 collections:
   posts: 
     output: true
+    permalink: /posts/:path/
   news:
     defaults:
       layout: post
@@ -181,7 +182,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages', '_posts']
+include: ['_pages']
 exclude:
   - bin
   - Gemfile

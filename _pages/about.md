@@ -18,7 +18,7 @@ Hi! My name is David Bick and I work in Applied ML at [Cerebras Systems](https:/
 
 Previously I spent six years at Carnegie Mellon University. I first earned a Bachelors in Statistics and Machine Learning, and then published three papers under Prof. Bhiksha Raj durng a Research Masters in the [Language Technologies Institute](https://www.lti.cs.cmu.edu), within the School of Computer Science.  
 
-My work and interests are generally in natural language processing and speech processing. My research followed a line of work on improving the perceptual quality of machine-generated speech. I have also worked on a number of projects at Cerebras and CMU using LLMs, including multi-modal QA, instruction-fine-tuning, etc.  
+My work has been in natural language processing and speech processing. My research followed a line of work on improving the perceptual quality of machine-generated speech. Now I work in NLP with LLMs, and have worked on projects at CMU and Cerebras that include multi-modal QA, instruction-fine-tuning, etc.  
 
 **Research Details:**
 

@@ -23,26 +23,26 @@ $$
 \end{align}
 $$
 
-There is an important step that is glossed over in the intro but will be crucial to the above properties -- gradient descent training induces alignment between the layer inputs and the top singular subspaces of the weight matrices. 
+The first equation is called Desideratum 1, and the second is called Condition 1. The goal of this paper is to show that Condition 1 will satisfy Desideratum 1, i.e. to show the _spectral condition_ of the weight matrices will induce the correct _feature learning_. 
 
-Assuming this alignment, the definitional forward pass
+One of the crucial facts in establishing this fact felt to me somewhat glossed over in the intro. The idea is that gradient descent training induces alignment between the layer inputs and the top singular subspaces of the weight matrices. Assuming this alignment, the definitional forward pass
 $$h_{l}(x) = W_{l} h_{l-1}(x)$$ 
 entails that 
 $$|| h_l(x) ||_2 = || W_l ||_{*} \cdot || h_{l-1}(x) ||_2$$
 . This follows by the definition of spectral norm 
 $$|| A ||_{*} = \max_{v \in \mathbb{R}^n \ \{0\}} \frac{||Av||_2}{||v||_2}$$, as substituting gives us
 $$|| W ||_{*} = \frac{|| W_{l} h_{l-1}(x) ||_2}{|| h_{l-1}(x) ||_2} = \frac{|| h_{l}(x) ||_2}{|| h_{l-1}(x) ||_2}$$
+Therefore if Equation 2 is satisfied, it gives us the property of Equation 1. 
 
 So in this blog post I will seek to explain and build intuition on: 
 1. Why should activations scale this way? 
+
+    I'm not sure why there is the square-root. The paper does mention that the updates should be $$\Theta(1)$$ because otherwise updates blow up or vanish at large and small widths respectively. Actually I think the square-root is because the L-2 norm is $$\sqrt{\sum_{i=1}^n x_i^2}$$, so this means that each dimension is order 1. 
+
 2. Why should weights scale this way? 
-4. How can you learn features when the updates are of this order?
-3. Why does gradient descent induce the alignment between activations and singular subspaces of weights?
 
+    Weights scaling this way causes the condition of activations having the right scale, given the alignment. 
 
-## Preliminaries 
-Some sub-questions that might be useful to answer along the way include: 
-1. What is the intuition behind the spectral norm? 
-2. The spectral norm of a matrix is equal to the largest singular value. What is the intuition behind the singular vectors/values? 
-3. What is the intuition behind the Frobenius norm? 
+3. How can you learn features when the updates are of this order?
+4. Why does gradient descent induce the alignment between activations and singular subspaces of weights?
 
